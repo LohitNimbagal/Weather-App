@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web App</title>
+    <link rel="stylesheet" href="/style.css">
+    
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="searchBox">
+                <input  class="inputBox" type="text" placeholder="Location">
+
+                <button class="fa-solid fa-magnifying-glass" id="searchBtn">
+                </button>
+            </div>
+        </div>
+        <div class="weatherBody">
+            <img class="weatherImage" src="/images/danieledesantis-weather-flat-icons/SVG/danieledesantis-weather-icons-sunny.svg" alt="weatherImage">
+
+            <div class="weatherBox">
+                <p class="temperature">0<sup>°C</sup></p>
+                <p class="description">Sunny</p>
+            </div>
+
+            <div class="weatherDetails">
+                <div class="humidity">
+                    <i class="fa-solid fa-droplet" style="color: #000000;"></i>
+                    <div class="text">
+                        <span id="humidity">45%</span>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+
+                <div class="windspeed">
+                    <i class="fa-solid fa-wind" style="color: #000000;"></i>
+                    <div class="text"><span id="windspeed">45 Km/H</span></div>
+                    <p>Windspeed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/950f0bf99e.js" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
