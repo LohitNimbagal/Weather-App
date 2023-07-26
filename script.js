@@ -1,5 +1,5 @@
 const inputBox = document.querySelector('inputBox');
-const searchBtn = document.getElementById('searchBtn');
+const searchBtn = document.getElementById('searchButton');
 const weatherImg  = document.querySelector('.weatherImg');
 const temperature  = document.querySelector('.temperature');
 const description  = document.querySelector('.description');
@@ -15,11 +15,6 @@ async function checkWeather(city){
     console.log(weatherData);
 }
 
-// searchBtn.addEventListener('click', () => {
-//     checkWeather(inputBox.value);
-// });
-
-
 searchBtn.addEventListener('click', ()=>{
-    checkWeather(inputBox.value);
+    checkWeather(inputBox.valu);
 });
